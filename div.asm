@@ -1,0 +1,9 @@
+.model small
+.code
+mov AH,00H
+MOV AL,08H
+MOV BL,02H
+DIV BL
+MOV AH,4CH
+INT 21
+END 
